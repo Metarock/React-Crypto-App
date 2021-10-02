@@ -28,7 +28,7 @@ const App = () => {
                 <CryptoDetails />
               </Route>
               <Route exact path="/news">
-                <News simplified />
+                <News simplified={false} />
               </Route>
             </Switch>
           </div>
