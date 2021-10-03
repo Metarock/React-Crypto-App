@@ -1,11 +1,11 @@
-import React, { useState } from 'react'
+import { Col, Row, Statistic, Typography } from 'antd';
 import millify from 'millify';
-import { Typography, Row, Col, Statistic } from 'antd';
-
-import { useGetCryptosQuery } from '../services/cryptoApi';
+import React from 'react';
 import { Link } from 'react-router-dom';
+import { useGetCryptosQuery } from '../services/cryptoApi';
 import { CryptoCurrencies } from './CryptoCurrencies';
 import { News } from './News';
+
 interface HomePageProps {
 
 }
